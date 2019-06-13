@@ -15,7 +15,7 @@
  -> You should have received a copy of the GNU General Public License
  -> along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ->
- ->
+ -> Authors: Carlos Argáez, Jean-Claude Berthet, Hjörtur Björnsson, Peter Giesl, Sigurdur Freyr Hafstein
  */
 
 
@@ -27,7 +27,7 @@
 #include <iostream>
 
 namespace glovar {
-    extern int functionodecalls;
+    extern unsigned long long int functionodecalls;
 
     enum Problema {
         TWOORBITS,VDP,HOMOCLINIC,DECREASING,TD1,TD2,TD3,SIMPLE3D,LORENZ
