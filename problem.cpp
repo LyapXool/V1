@@ -33,7 +33,7 @@ using namespace std;
 using namespace arma;
 using namespace glovar;
 
-int glovar::functionodecalls=0;
+unsigned long long int glovar::functionodecalls=0;
 std::ofstream glovar::outputf;
 arma::span const All=span::all;
 
